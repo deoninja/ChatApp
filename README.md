@@ -110,4 +110,4 @@ The backend is a Node.js application using:
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GNU License.
