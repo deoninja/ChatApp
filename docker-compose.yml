@@ -17,7 +17,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     ports:
-      - "5000:5000"
+      - "5001:5001"
     volumes:
       - ./backend:/app
       - /app/node_modules
@@ -29,6 +29,7 @@ services:
       - DB_PASSWORD=chatapp123
       - DB_NAME=chatapp
       - JWT_SECRET=your_jwt_secret
+      - PORT=5001
 
   db:
     image: postgres:14-alpine

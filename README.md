@@ -39,7 +39,7 @@ Make sure you have the following installed on your machine:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/deoninja/ChatApp.git
+   git clone <repository-url>
    cd chat-application
    ```
 
@@ -58,7 +58,7 @@ Make sure you have the following installed on your machine:
 
 4. Access the application:
    - Frontend: http://localhost:3000
-   - Backend API: http://localhost:5000
+   - Backend API: http://localhost:5001
    - Database: localhost:5432
 
 ## Development
@@ -110,4 +110,4 @@ The backend is a Node.js application using:
 
 ## License
 
-This project is licensed under the GNU License.
+This project is licensed under the MIT License.
